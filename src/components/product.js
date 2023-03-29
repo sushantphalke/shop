@@ -13,7 +13,7 @@ const Product = ({ product }) => {
         <Box position="relative" shadow="base">
             <Suspense fallback={renderLoader()}>
                 <Badge bgColor="brand.900" color="white" position="absolute" top="10px" right="10px">{product.discountPercentage}%</Badge>
-                <Link to={{pathname:`/SingleProduct?id=${product.id}`}}>
+                <Link to={{'pathname ':`/SingleProduct ? id=${product.id}`}}>
                         <Image w="100%" src={product.thumbnail} alt="product" p="4" />
                 </Link>
                 <Box p="4" fontSize="14px">
