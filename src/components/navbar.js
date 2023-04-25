@@ -91,7 +91,7 @@ const Navbar = () => {
                         
 
                         <Box py="2" mt="4">
-                            <Text fontWeight="600">Info@example.com</Text>
+                            <Text fontWeight="600">sushantphalke.cse@gmail.com</Text>
                             <SocialLinks />
                         </Box>
                     </DrawerBody>
